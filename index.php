@@ -43,7 +43,7 @@
 					</div>
 					<div class="col-md-12" style="text-align: center; padding: 100px 10px;">
 						<h2 style="font-weight: bold; font-size: 20px; text-align: center;">まずはチームIDをコピー。<br>アプリ内で使うよ！</h2>
-						<p style="padding: 5px; background-color: gray;"><?php echo htmlspecialchars($_GET["team_id"]) ?></p>
+						<p style="padding: 5px; background-color: #DBDBDB;"><?php echo htmlspecialchars($_GET["team_id"]) ?></p>
 						<button class="btn btn-primary">チームIDをコピー</button>
 					</div>
 					<div class="col-md-12" style="text-align: center; padding: 100px 10px;">
