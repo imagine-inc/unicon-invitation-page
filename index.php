@@ -29,6 +29,10 @@
 		height: 100%;
 	}
 
+	i {
+		font-family: FontAwesome;
+	}
+
 </style>
 
 <body>
@@ -38,12 +42,15 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12" style="text-align: center; padding: 100px 10px;">
-						<h2 style="font-weight: bold; font-size: 20px; text-align: center;">チームへの招待が届いています。</h2>
+						<i style="font-size: 80px;" class="fa fa-envelope"></i>
+						<h1>wewe</h1>
+						<h2 style="font-weight: bold; font-size: 20px; text-align: center;">
+							<?php echo htmlspecialchars($_GET["sender"]) ?>さんからあなたへ、チームへの招待状が届いています。</h2>
 					</div>
 					<div class="col-md-12" style="text-align: center; padding: 100px 10px;">
 						<h2 style="font-weight: bold; font-size: 20px; text-align: center;">まずはチームIDをコピー。<br>アプリ内で使うよ！</h2>
 						<p style="padding: 5px; background-color: #DBDBDB;"><?php echo htmlspecialchars($_GET["team_id"]) ?></p>
-						<button class="btn btn-primary">チームIDをコピー</button>
+						<button class="btn" style="background-color: #FF5E62; color: white; font-weight: bold;">チームIDをコピー</button>
 					</div>
 					<div class="col-md-12" style="text-align: center; padding: 100px 10px;">
 						<h2 style="font-weight: bold; font-size: 20px; text-align: center;">weweをインストール！</h2>
